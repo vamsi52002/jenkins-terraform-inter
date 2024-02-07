@@ -3,6 +3,6 @@ resource "aws_s3_bucket" "exampel"{
 
     tags = {
     Name        = "My bucket"
-    Environment = "Dev"
+    Environment = "jenkins"
   }
 }
